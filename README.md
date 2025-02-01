@@ -65,5 +65,38 @@ if(year%4==0 or year%400==0):
 else:
     print("Given year is not a leap year")
  @@<g> python program to find the prime numbers in a given range
+
+
+
+
+  1. Jvascript program to print the followint patern
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+         let result='';
+for(let i=1; i<=5; i++){
+    for(let j=1; j<=i; j++){
+        result+='* '
+    }
+    result+='\n';
+}
+console.log(result);
+
+2.
+1 
+1 2 
+1 2 3 
+1 2 3 4 
+1 2 3 4 5 
+            let result='';
+for(let i=1; i<=5; i++){
+    for(let j=1; j<=i; j++){
+        result+=`${j} `
+    }
+    result+='\n';
+}
+console.log(result);
  
 
